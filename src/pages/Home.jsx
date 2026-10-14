@@ -1,3 +1,4 @@
+import FeaturedProducts from "../Components/FeautredProducts";
 import Hero from "../Components/Hero";
 import Categories from "./Categories";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <>
         <Hero/>
         <Categories/>
+        <FeaturedProducts/>
         </>
         
     )
